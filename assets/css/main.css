@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.bold{
+    font-weight: bold;
+}
+.logo{
+    max-width: 60px;
+    margin-bottom: 16px;
+}
+span.text{
+    display: block;
+    line-height: 15px;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    color: #233b5d;
+}
+
+.form-group{
+    position: relative !important;
+    margin-bottom : 25px;
+}
+.form-group img{
+    position: absolute;
+    left: 20px; top: 32px;
+    width: 17px;
+}
+input[type="text"],input[type="password"],input[type="text"]:focus,input[type="password"]:focus{
+    background: #f2f4f6;
+    padding-top: 25px;
+    padding-left: 60px;
+    border: 0px;
+    height: 60px;
+}
+label{
+    position: absolute !important;
+    top: 10px; left: 20px;
+    color: #567fb8;
+    font-size: 13px;
+    font-weight: 600;
+}
+input[type="submit"]{
+    border: 0px;
+    background: #233b5d;
+    color: white;
+    font-size: 14px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.progress{
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    right: 20px;
+    border-radius: 8px;
+    top: 21px;
+    opacity: 0.8;
+}
+.progress .progress-bar{
+    border-radius: 8px;
+    background: #fd6633;
+}
